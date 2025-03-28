@@ -1,0 +1,48 @@
+3D Point Cloud Part Segmentation Project README
+=============================================
+
+Project Overview
+----------------
+A PyTorch-based implementation for 3D point cloud part segmentation, designed for semantic part segmentation tasks.
+
+Environment Setup
+-----------------
+1. Extract virtual environment:
+   - Unzip venv.zip to project directory
+2. Activate virtual environment:
+   - Windows: venv\Scripts\activate
+   - Linux/Mac: source venv/bin/activate
+
+Data Preparation
+---------------
+1. Download dataset zip files:
+   - 1-100.zip
+   - 101-200.zip
+   - 201-300.zip
+   - 301-347.zip
+2. Extract to specified directory:
+   - Unzip all files to: CotSegNet\data\shapenetcore_partanno_segmentation_benchmark_v0_normal\001
+
+Model Training
+--------------
+1. Start training script:
+   - Directly run train_partseg.py
+2. Training parameters:
+   - Modify batch_size, epochs etc. in the script
+
+Model Testing
+-------------
+1. Start testing script:
+   - Directly run test_partseg.py
+2. Test results:
+   - Results will be saved in log/part_seg/pointnet2_part_seg_msg/eval.txt
+
+Directory Structure
+------------------
+CotSegNet/
+├── data/                                  # Data directory
+│   └── shapenetcore_partanno_segmentation_benchmark_v0_normal/
+│       └── 001/                           # Extracted data location
+├── train_partseg.py                       # Training script
+├── test_partseg.py                        # Testing script
+└── venv/                                  # Virtual environment
