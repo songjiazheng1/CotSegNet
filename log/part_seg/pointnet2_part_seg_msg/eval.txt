@@ -1,0 +1,8 @@
+2025-03-28 15:54:18,383 - Model - INFO - PARAMETER ...
+2025-03-28 15:54:18,383 - Model - INFO - Namespace(batch_size=5, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=False, num_votes=3)
+2025-03-28 15:54:18,384 - Model - INFO - The number of test data is: 24
+2025-03-28 15:54:28,035 - Model - INFO - eval mIoU of cotton         0.887914
+2025-03-28 15:54:28,035 - Model - INFO - Accuracy is: 0.98969
+2025-03-28 15:54:28,035 - Model - INFO - Class avg accuracy is: nan
+2025-03-28 15:54:28,035 - Model - INFO - Class avg mIOU is: 0.88791
+2025-03-28 15:54:28,036 - Model - INFO - Inctance avg mIOU is: 0.88791
